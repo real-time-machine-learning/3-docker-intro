@@ -14,8 +14,9 @@ git clone https://github.com/real-time-machine-learning/3-docker-intro
 
 ## 安装配置软件环境
 
-我们假设读者在Ubuntu 16.04环境下进行学习。下面的步骤可以供Windows用户
-参考，但可能需要稍作修改。
+我们假设读者在Ubuntu 16.04环境下进行学习。Mac用户和Windows用户可以直接
+安装[Docker Toolbox](https://www.docker.com/products/docker-toolbox)，
+Docker Toolbox自带下面的所有组件。
 
 ### 安装Docker 
 
