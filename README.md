@@ -19,8 +19,7 @@ git clone https://github.com/real-time-machine-learning/3-docker-intro
 
 ### 安装Docker 
 
-这里有最新的[官方安装指南|
-https://docs.docker.com/engine/installation/linux/ubuntulinux/#/install]。
+这里有最新的[官方安装指南](https://docs.docker.com/engine/installation/linux/ubuntulinux/#/install)。
 
 在Ubuntu 命令行下，运行下面内容，可以安装Docker命令行(Docker CLI)：
 
