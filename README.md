@@ -98,12 +98,15 @@ virtualbox
 
 ### DockerFile 基本操作
 
+请查阅`docker-engine-tutorial`目录中的内容进行学习
 
 ### Docker Compose 基本操作
 
+请查阅`docker-compose-tutorial`目录中的内容进行学习
 
 ### Docker Machine 基本操作
 
+请查阅`docker-machine-tutorial`目录中的内容进行学习
 
 
 --- 
