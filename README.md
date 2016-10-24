@@ -50,9 +50,46 @@ docker run hello-world
 
 ### 安装Docker Compose 
 
+这里有最新的[官方安装指南](https://docs.docker.com/compose/install/)。
 
+Docker Compose是一个基于Python的软件，可以通过Python Pip安装:
+
+```shell
+sudo apt-get install python python-pip 
+sudo pip install docker-compose 
+docker-compose --version 
+```
+如果一切顺利，执行完成第三步骤之后，命令行会成功显示出当前Docker
+Compose的版本信息。
 
 ### 安装Docker Machine 
+
+这里有最新[官方安装指南](https://docs.docker.com/machine/install-machine/)。
+
+Docker Machine的安装方法还比较简单粗暴，可以通过下面命令行进行安装
+
+```shell
+curl -L https://github.com/docker/machine/releases/download/v0.7.0/docker-machine-`uname -s`-`uname -m` > /tmp/docker-machine 
+sudo mv /tmp/docker-machine /usr/local/bin/docker-machine
+sudo chmod +x /usr/local/bin/docker-machine
+docker-machine version 
+```
+
+执行完成上面步骤之后，如果出现了Docker Machine的版本信息，那么就安装成
+功啦。
+
+### 安装VirtualBox(可选)
+
+我们可以安装VirtualBox作为本地虚拟服务器：
+
+```shell
+sudo apt-get install virtualbox 
+virtualbox 
+```
+
+如果一切顺利，上面命令执行完成之后可以看到virtualbox虚拟机的管理界面。
+这时候您不用创建新的虚拟机，稍后Docker Machine会自动为您完成创建的所有
+工作。
 
 ## 基本操作练习
 
