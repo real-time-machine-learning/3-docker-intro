@@ -1,0 +1,4 @@
+
+## requirement.txt是Python所需的软件包配置文件，这里我们只需要Flask
+
+Flask==0.10.1
